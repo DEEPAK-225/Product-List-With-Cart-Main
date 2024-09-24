@@ -87,6 +87,7 @@ body{
   font-size: 20px;
 }
 .cart {
+  height: fit-content;
   flex-basis: 35%;
   background-color: white;
   padding: 10px 20px;
