@@ -9,6 +9,8 @@
     <title>Dessert Menu</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<img class="color-red" src="./assets/images/icon-decrement-quantity.svg" alt="Description of icon" width="24"
+    height="24" />
 
 <body>
     <main class="main-container" id="mainContainer">
@@ -19,71 +21,79 @@
         </div>
         <div class="cart" id="cart">
             <h2 class="color-red" id="cartHeading">Your Cart (0)</h2>
-            <div class="cart-container" id="cartContainer">
-               <div class="cart-items-container" id="cartItemsContainer">
-                <!-- <div class="cart-item" id="cartItem">
-                    <div class="itme-detail">
-                        <h4 class="color-rose-900">Clasic Tiramisu</h4>
-                        <span class="color-red"><b>1x</b></span>
-                        <span class="color-rose-400">@$5.50</span>
-                        <span class="color-rose-900">$5.50</span>
-                    </div>
-                    <div class="remove-btn">
-                        <i class="fa-regular fa-circle-xmark"></i>
-                    </div>
-                </div> -->
-                <!-- <hr> -->
-            </div> 
-                <div class="total-order-ammount">
-                    <h4 class="color-rose-500">Order Total</h4>
-                    <h2 class="color-rose-900" id="totalOrderAmmount">$5.50</h2>
-                </div>
-                <div class="netural-delivery">
-                    <p><i class="fa-brands fa-pagelines"></i>This is a <b>carbon-natural</b> delivery</p>
-                </div>
-                <div class="new-order-btn">
-                    <p>Confirm Order</p>
-                </div>
-
+            <div id="emptyCartImage">
             </div>
-
-
+            <p class="color-rose-500 empty-cart-p" id="emptyCartPara"></p>
+            <div class="cart-container" id="cartContainer">
+                <div class="cart-items-container" id="cartItemsContainer">
+                    <!-- <div class="cart-item" id="cartItem">
+                                    <div class="itme-detail">
+                                        <h4 class="color-rose-900">Clasic Tiramisu</h4>
+                                        <span class="color-red"><b>1x</b></span>
+                                        <span class="color-rose-400">@$5.50</span>
+                                        <span class="color-rose-900">$5.50</span>
+                                    </div>
+                                    <div class="remove-btn">
+                                        <i class="fa-regular fa-circle-xmark"></i>
+                                    </div>
+                                </div>
+                                <hr> -->
+                </div>
+                <div id="orderAmmountContainer">
+                    <div class="total-order-ammount">
+                        <h4 class="color-rose-500">Order Total</h4>
+                        <h2 class="color-rose-900" id="totalOrderAmmount">$5.50</h2>
+                    </div>
+                    <div class="netural-delivery">
+                        <img src="assets/images/icon-carbon-neutral.svg" alt="carbon-neutral"> This is a
+                        <b>carbon-natural</b> delivery</p>
+                    </div>
+                    <div class="new-order-btn" id="orderBtn">
+                        <p>Confirm Order</p>
+                    </div>
+                </div>
+            </div>
+    
+    
         </div>
-        <div class="order-confirmed-container">
-            <i class="fa-regular fa-circle-check"></i>
+        <div class="order-confirmed-container" id="confirmOrderContainer">
+            <img src="assets/images/icon-order-confirmed.svg" alt="">
             <h1 class="color-rose-900">Order Confirmed</h1>
             <p class="color-rose-400">We home you enjoy your food!</p>
-            <div class="ordered-items">
-                <div class="ordered-item">
-                    <div class="item-img-and-price-detail-total">
-                        <div class="item-img-and-price-detail">
-                            <div class="ordered-item-img">
-                                <img src="https://loremflickr.com/1600/900/gym" alt="Item-img">
+            <div class="ordered-items-container">
+                <div class="ordered-items" id="orderedItems">
+                    <!-- <div class="ordered-item" id="orderedItem">
+                        <div class="item-img-and-price-detail-total">
+                            <div class="item-img-and-price-detail">
+                                <div class="ordered-item-img">
+                                    <img src="https://loremflickr.com/1600/900/gym" alt="Item-img">
+                                </div>
+                                <div class="itme-detail">
+                                    <h4>Clasic Tiramisu</h4>
+                                    <span class="color-red"><b>1x</b></span>
+                                    <span class="color-rose-400">@$5.50</span>
+                                </div>
                             </div>
-                            <div class="itme-detail">
-                                <h4>Clasic Tiramisu</h4>
-                                <span class="color-red"><b>1x</b></span>
-                                <span class="color-rose-400">@$5.50</span>
+                            <div>
+                                <span>$5.50</span>
                             </div>
-                        </div>
-                        <div>
-                            <span>$5.50</span>
                         </div>
                     </div>
-                    <hr>
+                    <hr> -->
                 </div>
-                <div class="total-order-ammount">
-                    <h4 class="color-rose-500">Order Total</h4>
-                    <h2 class="color-rose-900">$5.50</h2>
+                <div class="ordered-items-ammounts">
+                    <div class="total-order-ammount">
+                        <h4 class="color-rose-500">Order Total</h4>
+                        <h2 class="color-rose-900" id="totalOrderedAmmount">$5.50</h2>
+                    </div>
+                    <div class="new-order-btn" id="newOrder">
+                        <p>Start New Order</p>
+                    </div>
                 </div>
             </div>
-
-            <div class="new-order-btn">
-                <p>Start New Order</p>
-            </div>
-
+    
         </div>
-
+    
     </main>
 
 
