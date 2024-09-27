@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Product List with Cart Screenshot](./screenshot.png)
+![Product List with Cart Screenshot](./Screenshot.png)
 
 ### Links
 
