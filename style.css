@@ -62,6 +62,10 @@ body{
   height: 270px;
   width: 270px;
 }
+.item-image :hover {
+  border: 2px solid var(--red);
+  cursor: pointer;
+}
 #itemImage{
   height: 100%;
   width: 100%;
@@ -80,8 +84,16 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--rose-900);
+  border: 2px solid var(--rose-300);
+  font-weight: bold;
+}
+.add-to-cart-btn:hover {
+  cursor: pointer;
   color: var(--red);
-  border: 2px solid var(--red);
+}
+.cart-icon:hover {
+  border: none;
 }
 .item-details {
   margin-top: 50px;
@@ -128,6 +140,7 @@ body{
   transform: translate(-50% ,-50%); 
   display: none;
   z-index: 10;
+  margin-top: 10vh;
 }
 
 .order-confirmed-container i {
@@ -218,6 +231,9 @@ body{
   border-radius: 20px;
   color: white;
 }
+.new-order-btn:hover{
+  cursor: pointer;
+}
 .netural-delivery {
   height: 40px;
   width: 100%;
@@ -237,6 +253,32 @@ body{
 #orderAmmountContainer {
   display: none;
 }
+.count-items {
+  margin: 40px;
+  font-size: 30px;
+  color: white;
+}
+.ind-btn {
+ border: 2px solid white;
+ border-radius: 50%;
+ padding: 3px;
+}
+.ind-btn:hover {
+  background-color: white;
+}
+
+#decrement-quantity:hover path,
+#increment-quantity:hover path {
+  stroke: var(--red); /* Change to red on hover */
+  
+}
+.remove-btn:hover {
+  border: 1.5px solid var(--rose-300);
+  border-radius: 50%; 
+  cursor: pointer;
+}
+
+
 
 @media (max-width: 1024px) { 
   .main-container {
@@ -289,5 +331,8 @@ body{
   }
   .order-confirmed-container {
     width: 100%;
+    margin-top: 100vh;
   }
 }
+
+
