@@ -2,15 +2,13 @@
 
 ## Table of contents
 
-- [Overview](#overview)
+  - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Code snippets](#code-snippets)
-  - [Continued development](#continued-development)
 
 ## Overview
 
@@ -33,9 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Site](https://your-live-site-url.com)
-
-## My process
+- Live Site URL: [Live Site](https://deepak-225.github.io/Product-List-With-Cart/)
 
 ### Built with
 
